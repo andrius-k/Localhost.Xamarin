@@ -50,10 +50,10 @@
       <HintPath>..\..\packages\Xamarin.Android.Support.v7.AppCompat.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
     <Reference Include="Localhost.Abstractions">
-      <HintPath>..\..\packages\Localhost.0.0.12\lib\MonoAndroid10\Localhost.Abstractions.dll</HintPath>
+      <HintPath>..\..\packages\Localhost.1.0.0\lib\MonoAndroid10\Localhost.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Localhost">
-      <HintPath>..\..\packages\Localhost.0.0.12\lib\MonoAndroid10\Localhost.dll</HintPath>
+      <HintPath>..\..\packages\Localhost.1.0.0\lib\MonoAndroid10\Localhost.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

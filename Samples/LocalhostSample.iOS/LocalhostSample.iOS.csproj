@@ -63,17 +63,18 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Andrius Kirilovas (99W3Y93P88)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignEntitlements></CodesignEntitlements>
     <IOSDebuggerPort>55020</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <CodesignProvision>iOS Team Provisioning Profile: *</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,10 +83,10 @@
     <Reference Include="Xamarin.iOS" />
     <Reference Include="System.Runtime" />
     <Reference Include="Localhost.Abstractions">
-      <HintPath>..\..\packages\Localhost.0.0.12\lib\Xamarin.iOS10\Localhost.Abstractions.dll</HintPath>
+      <HintPath>..\..\packages\Localhost.1.0.0\lib\Xamarin.iOS10\Localhost.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Localhost">
-      <HintPath>..\..\packages\Localhost.0.0.12\lib\Xamarin.iOS10\Localhost.dll</HintPath>
+      <HintPath>..\..\packages\Localhost.1.0.0\lib\Xamarin.iOS10\Localhost.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

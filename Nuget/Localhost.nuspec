@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Localhost</id>
-        <version>0.0.12</version>
+        <version>1.0.0</version>
         <description>Localhost allows us to use different IP address to access local development machine depending on the platform the app runs on. There are 4 supported platform variations: iOS simulator, iOS device, Android emulator and Android device. This library takes advendage of bait-and-switch pattern so it can be used from shared code.</description>
         <summary>Localhost allows us to use different IP address to access local development machine depending on the platform the app runs on.</summary>
         <authors>Andrius Kirilovas</authors>
         <owners>Andrius Kirilovas</owners>
         <title>Localhost for Xamarin</title>
-        <projectUrl>https://github.com/andrius-k</projectUrl>
+        <projectUrl>https://github.com/andrius-k/Localhost.Xamarin</projectUrl>
         <tags>xamarin, pcl, ios, android, localhost</tags>
     </metadata>
     
